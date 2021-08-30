@@ -1,15 +1,21 @@
 {
-  "name": "create",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "download-git-repo": "^3.0.2"
-  }
+    "name": "create",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "lxy": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^8.1.0",
+        "download-git-repo": "^3.0.2",
+        "lxy": "^1.0.0",
+        "open": "^8.2.1"
+    }
 }
